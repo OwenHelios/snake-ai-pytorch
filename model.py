@@ -60,12 +60,4 @@ class QTrainer:
 
         self.current_loss = loss.item()
 
-        # checkpoint = {
-        #     'epoch': current_epoch,
-        #     'model_state_dict': model.state_dict(),
-        #     'optimizer_state_dict': optimizer.state_dict(),
-        #     'loss': current_loss,
-        # }
-        # torch.save(checkpoint, 'snake_mlp_checkpoint.pth')
-
 
